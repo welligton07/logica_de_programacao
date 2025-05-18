@@ -2,9 +2,14 @@ programa {
   funcao inicio() {
     inteiro senha
 
-    escreva ("Digite uma senha: ")
-    leia(senha)
+    faca {
+      escreva ("Digite sua senha: ")
+      leia(senha)
 
-    faca ()
+      escreva("senha incorreta... \n")
+      
+    } enquanto (senha != 1999)
+
+    esceva("bem vindo!!!")
   }
 }
