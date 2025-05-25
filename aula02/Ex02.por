@@ -13,7 +13,7 @@ programa {
     escreva("Nota 02: ")
     leia(nota2)
 
-    resultado = (nota1+nota2)/2
+    resultado = (nota1 + nota2)/2
 
     escreva ("O aluno ", nome ,"obteve média final: ",resultado)
 
